@@ -31,11 +31,13 @@ class ComposerStaticInitd5cd769cd35599a9c31249ba7cedb852
     );
 
     public static $classMap = array (
+        'Console\\First' => __DIR__ . '/../..' . '/application/console/Console.php',
         'Core\\ClassLoader' => __DIR__ . '/../..' . '/application/cores/ClassLoader.php',
         'Core\\Controller' => __DIR__ . '/../..' . '/application/cores/Controller.php',
         'Core\\Controller\\Index' => __DIR__ . '/../..' . '/application/cores/controller/Index.php',
         'Core\\Model\\Medoo' => __DIR__ . '/../..' . '/application/cores/model/Medoo.php',
         'Dtest\\Demo' => __DIR__ . '/../..' . '/lib/Demo.php',
+        'Job\\First' => __DIR__ . '/../..' . '/application/job/Job.php',
         'Service\\Article\\QueryList' => __DIR__ . '/../..' . '/application/service/article/QueryList.php',
         'TestLog\\ClassTest' => __DIR__ . '/../..' . '/lib/ClassTest.php',
     );

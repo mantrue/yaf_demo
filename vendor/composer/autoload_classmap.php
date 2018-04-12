@@ -6,11 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Console\\First' => $baseDir . '/application/console/Console.php',
     'Core\\ClassLoader' => $baseDir . '/application/cores/ClassLoader.php',
     'Core\\Controller' => $baseDir . '/application/cores/Controller.php',
     'Core\\Controller\\Index' => $baseDir . '/application/cores/controller/Index.php',
     'Core\\Model\\Medoo' => $baseDir . '/application/cores/model/Medoo.php',
     'Dtest\\Demo' => $baseDir . '/lib/Demo.php',
+    'Job\\First' => $baseDir . '/application/job/Job.php',
     'Service\\Article\\QueryList' => $baseDir . '/application/service/article/QueryList.php',
     'TestLog\\ClassTest' => $baseDir . '/lib/ClassTest.php',
 );
